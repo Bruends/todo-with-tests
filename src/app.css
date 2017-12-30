@@ -1,0 +1,21 @@
+* {box-sizing: border-box;}
+
+body{
+  font-family: 'Roboto', sans-serif;  
+  padding: 20px;
+  background-color: #222;
+}
+
+h1 {
+  text-align: center;
+}
+
+.appContainer {
+  width: 550px;
+  height: 600px;
+  padding: 30px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 10px solid #56CCF2;
+}

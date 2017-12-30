@@ -1,0 +1,33 @@
+.txtNewTodo {
+  box-shadow: 0;
+  border: 1px solid #e1e1e1;
+  padding: 15px;
+  border-radius: 20px 0 0 20px;
+  background-color: #e6e6e6;
+  width: 90%;
+}
+
+/* removendo detalhe no chrome */
+.txtNewTodo:focus {
+  outline: none;
+}
+
+.btnNewTodo {
+  border: 0;
+  background-color: #6FCF97;  
+  padding: 16px 0;
+  width: 10%;
+  border-radius: 0 20px 20px 0;
+  color: #333;
+  cursor: pointer;
+  outline: 0;
+}
+
+.btnNewTodo:hover {
+  background-color: rgb(148, 224, 180);
+  transition: .5s;
+}
+
+.btnNewTodo i {
+  color: #fff;
+}

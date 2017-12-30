@@ -1,0 +1,56 @@
+
+/* componente todolist */
+.todoContainer {
+  list-style: none;
+  padding: 0;
+  height: 350px;  
+  overflow-y: scroll;  
+  scroll-behavior: smooth;
+  margin-top: 30px;  
+}
+
+.todoItem {
+  position: relative;  
+  padding: 20px;
+  width: 100%;  
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 2px;
+}
+
+.todoText {
+  cursor: pointer;
+  display: block;
+  max-width: 320px;  
+  cursor: pointer;  
+}
+
+.btnDelete {
+  display: block; 
+  background-color: #fff;
+  box-shadow: 0;
+  border: none;
+  color: #C74848; 
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: 0;
+}
+
+/*todo completo */
+.todoItem .checkedIcon {
+  color: #6FCF97;
+  position: relative;
+  right: 0;
+  visibility: hidden;
+} 
+
+.todoItem--completed {
+  text-decoration: line-through;
+}
+
+.todoItem--completed .checkedIcon {
+  visibility: visible;
+}
+
