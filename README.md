@@ -12,3 +12,6 @@ you can run the app with the command `npm start` or `yarn start` and open the ur
 
 #### Test:
 to run tests use the command `npm test` or `yarn test` to see the test coverage include `--coverage` in the end of the command
+
+
+created with create-react-app
