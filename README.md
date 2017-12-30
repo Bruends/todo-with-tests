@@ -7,7 +7,7 @@ a simple react app to study about React, Redux and tests with Jest
 #### install: 
 Clone the repository and install the dependencies with npm using the command `npm install` or using yarn `yarn install`
 
-####Run: 
+#### Run: 
 you can run the app with the command `npm start` or `yarn start` and open the url `localhost:3000` on your browser
 
 #### Test:
