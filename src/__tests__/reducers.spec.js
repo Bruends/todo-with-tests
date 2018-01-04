@@ -4,13 +4,13 @@ import store from '../store';
 
 describe('testing reducers: ', () => {
   
-  test('should return the store when a undefined action is used', () => {
+  test('should return the store when an undefined action is used', () => {
     const testStore = [{id: '1', text: 'learn tdd', completed: false}];
     expect(todoReducer(testStore, 'UNDEFINED_ACTION'))
       .toEqual(testStore)
   })
 
-  test('should add a new todo, when action ADD_TODO action is used', () => {
+  test('should add a new todo, when ADD_TODO action is used', () => {
     const initialStore = [{id:1, text: 'old todo', completed: false}]
     const expectedStore = [
       {id:1, text: 'old todo', completed: false},
