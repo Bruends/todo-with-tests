@@ -1,10 +1,10 @@
 const INITIAL_STORE = [
-  {id: '1', text: 'Click in the todo to check', completed: false},
+  {id: '1', text: 'Other stuff', completed: false},
   {id: '2', text: 'Graduate', completed: true},
-  {id: '3', text: 'Get a JS JOB', completed: false},
-  {id: '4', text: 'Learn GraphQL', completed: false},
-  {id: '5', text: 'Learn english properly', completed: false},
-  {id: '6', text: 'Other stuff', completed: false},
+  {id: '3', text: 'Learn GraphQL', completed: false},
+  {id: '4', text: 'Learn english properly', completed: false},
+  {id: '5', text: 'Get a JS JOB', completed: false},
+  {id: '6', text: 'Click to check', completed: false},
 ];
 
 export default ( store = INITIAL_STORE, action) => {

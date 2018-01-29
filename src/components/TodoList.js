@@ -29,7 +29,7 @@ const TodoList = (props) => (
             <i className='fa fa-trash'></i>
           </button>
         </li>
-      ))
+      )).reverse()
     }
   </ul>
 );
